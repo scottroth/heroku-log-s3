@@ -22,7 +22,7 @@ GEM
     puma (4.3.5)
       nio4r (~> 2.0)
     racc (1.6.2)
-    rack (2.2.3)
+    rack (3.0.4.1)
 
 PLATFORMS
   ruby
@@ -32,8 +32,8 @@ DEPENDENCIES
   heroku-log-parser!
   newrelic_rpm
   nokogiri (>= 1.13.9)
-  puma (>= 3.12.3)
-  rack (>= 2.0.8)
+  puma (< 6)
+  rack (>= 2.2.6.2)
 
 RUBY VERSION
    ruby 3.1.3p185
